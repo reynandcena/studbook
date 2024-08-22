@@ -1,15 +1,14 @@
-import Content from "@/components/frontend/Content";
 import Footer from "@/components/frontend/Footer";
 import Header from "@/components/frontend/Header";
-import Hero from "@/components/frontend/Hero";
+import React from "react";
 
-export default function Home() {
+const AboutPage = () => {
   return (
     <>
       <Header />
-      <Hero />
-      <Content />
       <Footer />
     </>
   );
-}
+};
+
+export default AboutPage;

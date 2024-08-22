@@ -1,0 +1,86 @@
+import { EventsProps } from "@/types/events.type";
+
+const events: EventsProps[] = [
+    {
+        id: '1',
+        title: 'Stunning Victory for Rising Star at Derby',
+        coverImg: '/events/1.jpg',
+        body: '<p class="mt-2">Rising Star achieved a remarkable victory at the prestigious Derby, outpacing seasoned competitors with her unmatched speed and stamina. Her performance captivated the audience and established her as a top contender in the racing circuit.</p><p class="mt-2">Trainer Jane Doe praised Rising Star\'s exceptional dedication and hard work, attributing the win to rigorous training and a strong bond between horse and trainer.</p>',
+        author: 'Jane Doe',
+        date: '30 July 2024',
+    },
+    {
+        id: '2',
+        title: 'Annual Equine Health Symposium',
+        coverImg: '/events/2.jpg',
+        body: '<p class="mt-2">The Annual Equine Health Symposium brought together experts from around the world to discuss the latest advancements in equine veterinary care. Topics included preventative care, new treatments for common ailments, and breakthroughs in equine surgery.</p><p class="mt-2">Dr. John Smith highlighted the importance of early detection and treatment in improving the quality of life for horses.</p>',
+        author: 'Dr. John Smith',
+        date: '15 August 2024',
+    },
+    {
+        id: '3',
+        title: 'Champion Mare Retires to Stud',
+        coverImg: '/events/3.jpg',
+        body: '<p class="mt-2">After a stellar career, champion mare Thunderbolt has retired to stud. With numerous wins under her belt, she is expected to produce offspring with exceptional racing potential.</p><p class="mt-2">Owner Mike Johnson expressed confidence in Thunderbolt\'s ability to pass on her winning genes to the next generation.</p>',
+        author: 'Mike Johnson',
+        date: '22 August 2024',
+    },
+    {
+        id: '4',
+        title: 'Equine Therapy Programs Expanding Nationwide',
+        coverImg: '/events/4.jpg',
+        body: '<p class="mt-2">Equine therapy programs are seeing rapid expansion across the country, providing therapeutic riding sessions for individuals with physical, emotional, and cognitive challenges. These programs are proving to be highly effective in improving participants\' well-being.</p><p class="mt-2">Therapist Anna Lee shared success stories from her program, emphasizing the unique bond between horses and humans.</p>',
+        author: 'Anna Lee',
+        date: '5 September 2024',
+    },
+    {
+        id: '5',
+        title: 'New Training Techniques Revolutionize Dressage',
+        coverImg: '/events/5.jpg',
+        body: '<p class="mt-2">Innovative training techniques are revolutionizing the world of dressage, allowing riders to achieve higher levels of precision and harmony with their horses. These techniques focus on building trust and communication between horse and rider.</p><p class="mt-2">Dressage coach Emily Davis demonstrated these methods at a recent clinic, receiving rave reviews from participants.</p>',
+        author: 'Emily Davis',
+        date: '12 September 2024',
+    },
+    {
+        id: '6',
+        title: 'Equine Genetics Conference Breaks New Ground',
+        coverImg: '/events/6.jpg',
+        body: '<p class="mt-2">The recent Equine Genetics Conference showcased groundbreaking research on the genetic makeup of horses. Scientists presented findings on traits such as speed, endurance, and temperament, opening new possibilities for selective breeding.</p><p class="mt-2">Geneticist Dr. Lisa Green highlighted the potential for using genetic information to improve horse breeding programs.</p>',
+        author: 'Dr. Lisa Green',
+        date: '25 September 2024',
+    },
+    {
+        id: '7',
+        title: 'Equestrian Art Exhibit Draws Crowds',
+        coverImg: '/events/7.jpg',
+        body: '<p class="mt-2">The Equestrian Art Exhibit at the City Gallery has drawn large crowds, featuring stunning artwork inspired by the beauty and grace of horses. The exhibit includes paintings, sculptures, and photographs from renowned artists.</p><p class="mt-2">Curator Sarah Brown shared her vision for the exhibit, emphasizing the deep connection between art and equine culture.</p>',
+        author: 'Sarah Brown',
+        date: '1 October 2024',
+    },
+    {
+        id: '8',
+        title: 'Innovative Saddle Design Wins Award',
+        coverImg: '/events/8.jpg',
+        body: '<p class="mt-2">A new saddle design that enhances rider comfort and horse performance has won the prestigious Innovation in Equestrian Equipment Award. The saddle features ergonomic adjustments and advanced materials.</p><p class="mt-2">Designer Tom Wilson explained the benefits of the new design, which has been well-received by riders and trainers alike.</p>',
+        author: 'Tom Wilson',
+        date: '10 October 2024',
+    },
+    {
+        id: '9',
+        title: 'Equine Nutrition Workshop Offers Insights',
+        coverImg: '/events/9.jpg',
+        body: '<p class="mt-2">The Equine Nutrition Workshop provided valuable insights into the dietary needs of horses, covering topics such as balanced diets, supplements, and feeding strategies for different stages of life and activity levels.</p><p class="mt-2">Nutritionist Karen White emphasized the importance of tailored nutrition plans for maintaining optimal health and performance.</p>',
+        author: 'Karen White',
+        date: '20 October 2024',
+    },
+    {
+        id: '10',
+        title: 'Young Riders Showcase Talent at Junior Championships',
+        coverImg: '/events/10.jpg',
+        body: '<p class="mt-2">The Junior Championships saw young riders from across the region showcasing their talent and dedication. The event featured various disciplines, including show jumping, dressage, and cross-country.</p><p class="mt-2">Event organizer Laura Taylor praised the participants for their skill and sportsmanship, predicting bright futures for many of the young competitors.</p>',
+        author: 'Laura Taylor',
+        date: '30 October 2024',
+    },
+];
+
+export default events;
